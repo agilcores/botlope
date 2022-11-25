@@ -1,0 +1,107 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* navbar styling */
+.navbar
+{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(32, 44, 51);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+
+}
+
+.pictures
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2022/02/miku-vocaloid-destacada.jpg?fit=774%2C489&quality=99&strip=all&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.name-bot
+{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.name-bot .content p
+{
+    font-size: 12px;
+
+}
+
+/* end navbar styling */
+
+/* message form */
+
+.message-form
+{
+    background-image: url(../public/assets/img/potrait.jpg);
+    background-size: contain;
+    background-color: salmon;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-chat
+{
+    
+    padding-top: 30px;
+    background-color: white;
+    width: 80%;
+    height: 80%;
+}
+
+/* clippath 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 82%, 85% 75%, 0% 75%);
+
+*/
+
+.chat
+{
+    background-color: salmon;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 82%, 98% 75%, 0% 75%);
+    height: 100px;
+}
+
+.chat-row
+{
+    padding: 10px;
+}
+
+
+
+/* end message form */
+
+
+
+/* responsive media mobile style */
+
+@media only screen and (max-width: 480px) {
+    .message-form
+    {
+        background-image: url(../public/assets/img/potrait.jpg);
+        background-size: contain;
+        background-color: salmon;
+        height: 90vh;
+        width: 100%;
+    }
+  }
+/* responsive media mobile style end */
