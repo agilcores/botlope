@@ -62,9 +62,9 @@
 
 .container-chat
 {
-    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
     padding-top: 30px;
-    background-color: white;
     width: 80%;
     height: 80%;
 }
@@ -76,20 +76,22 @@
 
 .chat1
 {
-    background-color: salmon;
+    background-color: #68B984;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 82%, 98% 75%, 0% 75%);
     height: 100px;
+    
 }
 
 .isi-chat1
 {
     padding: 10px;
+    color: #333;
 }
 
 
 .chat2
 {
-    background-color: salmon;
+    background-color: #68B984;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 2% 75%, 0 83%, 0% 75%);
     height: 100px;
 }
@@ -97,6 +99,7 @@
 .isi-chat2
 {
     padding: 10px;
+    color: #333;
 }
 
 .chat-row
@@ -117,7 +120,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: red;
+    background-color:rgb(32, 44, 51);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,8 +134,15 @@
 .inputan .pesan
 {
     width: 90%;
-    height: 20px;
+    height: 40px;
+    border: none;
 }
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    border: 0;
+}
+
 
 /* responsive media mobile style */
 
@@ -141,7 +151,7 @@
     {
         background-image: url(../public/assets/img/potrait.jpg);
         background-size: contain;
-        background-color: salmon;
+        background-color:rgb(32, 44, 51);
         height: 90vh;
         width: 100%;
     }
