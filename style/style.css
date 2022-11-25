@@ -107,6 +107,15 @@
     padding: 10px;
 }
 
+.kirim
+{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+}
 
 
 /* end message form */
@@ -136,6 +145,7 @@
     width: 90%;
     height: 40px;
     border: none;
+    border-radius: 5px;
 }
 
 input:focus, textarea:focus, select:focus{
@@ -155,5 +165,12 @@ input:focus, textarea:focus, select:focus{
         height: 90vh;
         width: 100%;
     }
+
+    .inputan .pesan
+    {
+        width: 80%;
+    }
+
+    
   }
 /* responsive media mobile style end */
