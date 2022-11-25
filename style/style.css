@@ -74,6 +74,8 @@
 
 */
 
+
+
 .chat1
 {
     background-color: #68B984;
@@ -106,6 +108,17 @@
 {
     padding: 10px;
 }
+
+.row1
+{
+    width: 50%;
+}
+
+.row2
+{
+    width: 50%;
+}
+
 
 .kirim
 {
@@ -157,6 +170,8 @@ input:focus, textarea:focus, select:focus{
 /* responsive media mobile style */
 
 @media only screen and (max-width: 480px) {
+
+    
     .message-form
     {
         background-image: url(../public/assets/img/potrait.jpg);
@@ -166,11 +181,23 @@ input:focus, textarea:focus, select:focus{
         width: 100%;
     }
 
+    .row1
+    {
+        width: 85%;
+    }
+
+    .row2
+    {
+        width: 85%;
+    }
+
+
     .inputan .pesan
     {
         width: 80%;
     }
 
+    
     
   }
 /* responsive media mobile style end */
