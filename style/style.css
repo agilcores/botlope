@@ -80,14 +80,17 @@
 {
     background-color: #68B984;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 82%, 98% 75%, 0% 75%);
-    height: 100px;
+    height: 100%;
     
 }
 
 .isi-chat1
 {
-    padding: 10px;
-    color: #333;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    color: white;
 }
 
 
@@ -95,13 +98,16 @@
 {
     background-color: #68B984;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 2% 75%, 0 83%, 0% 75%);
-    height: 100px;
+    height: 100%;
 }
 
 .isi-chat2
 {
-    padding: 10px;
-    color: #333;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    color: white;
 }
 
 .chat-row
@@ -127,7 +133,7 @@
     border: none;
     border-radius: 5px;
     background-color: white;
-    color: #333;
+    color: white;
 }
 
 
@@ -193,6 +199,24 @@ input:focus, textarea:focus, select:focus{
     .row2
     {
         width: 85%;
+    }
+
+    .isi-chat1
+    {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 70px;
+        color: white;
+    }
+
+    .isi-chat2
+    {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 70px;
+        color: white;
     }
 
 
